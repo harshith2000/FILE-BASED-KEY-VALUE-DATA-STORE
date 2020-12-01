@@ -172,7 +172,9 @@ print("\nDatastore path: "+path)
 from pathlib import Path
 my_file = Path(path)
 
-while 1:
+print("\n\n\n***Methods availabele: ***\n1. create()\n2. read()\n3 .delete()\n4. update()") 
+
+"""while 1:
     op=int(input("\n\n\n***Operations:***\n1.Create\n2.Read\n3.Delete\n4.Update\n5.Exit\nEnter choice: "))    #Getting the choice of operation 
     if op==1:
         create()                         
@@ -184,5 +186,5 @@ while 1:
         update()
     else:
         print("EXIT")
-        break
+        break"""
 
