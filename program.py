@@ -175,14 +175,14 @@ my_file = Path(path)
 print("\n\n\n***Methods availabele: ***\n1. create()\n2. read()\n3 .delete()\n4. update()") 
 
 """while 1:
-    op=int(input("\n\n\n***Operations:***\n1.Create\n2.Read\n3.Delete\n4.Update\n5.Exit\nEnter choice: "))    #Getting the choice of operation 
-    if op==1:
+    choice=int(input("\nEnter choice of operation: "))    #Getting the choice of operation 
+    if choice==1:
         create()                         
-    elif op==2:
+    elif choice==2:
         read()
-    elif op==3:
+    elif choice==3:
         delete()
-    elif op==4:
+    elif choice==4:
         update()
     else:
         print("EXIT")
